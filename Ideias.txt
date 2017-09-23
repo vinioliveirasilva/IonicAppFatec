@@ -1,0 +1,32 @@
+escala tela 1.778:1
+
+**Remover botão search. quando clicar no textBox, ele ira abrir uma lista de opções possiveis de pesquisa. Após digitar a pesquisa, só tera um texto selecionavel, clicando no texto ele ira fazer a pesquisa automaticamente.
+
+Ideias
+	-> Layout basico
+		-> botão na parte superior esquedo abre o tela de opção
+		-> botão do lado direiro superior é o search, quando clicado ira abrir o textbox para digitar a pesquisa
+		-> o textbox de search não ira sumir enquanto tiver algo escrito
+		-> quando tela de opção é chamada, tela principal fica em cinza e o searchbox fica escondido
+	-> Tela Padrão
+		-> Vai ter icones de cada predio, quando o icone for clicado, exibe informações sobre o predio (aulas dadas, pesquisas desenvolvidas, centros de apoio ao aluno, etc)
+		-> Tem varios pontos fixos, um deles é a entrada da fatec, onde será o ponto inicial para se localizar
+
+	-> Tela de informações
+		-> quando clicado em um icone, ira abrir um popup com as informações do predio clicado
+		-> na parte superior direita havera um X para fechar o popup
+		-> exibir um resumo das informações. Se for necessario criar um link com (mais informações)
+
+	-> Tela de opção
+		-> Opção: Gerenciar Materias
+					-> Sera possivel adicionar as materias da grade curricular do aluno, facilitando a memorização das materias e possibitando o melhor controle das aulas, horarios e locais.
+		-> Opção: Data das provas
+					-> Sera possivel adicionar as dadas das provas de cada materia cadastrada na opção gerenciar materias, assim facilitando o melhor controle de tempo de estudo por parte do aluno
+		-> Opção: Material de Sala
+					-> Sera possivel adicionar um link do onedrive for business para que o App faça o download do material contido nesse link, logo facilitando o compartilhamento de informações
+		-> Opção: Ajuda
+					-> Mostra uma sequencia de links onde esta documentado a funcionalidade do App, falicitando o uso/aprendizado.
+
+	-> TextBox Search
+		-> Quando clicar no textbox, ira abrir uma lista com as possibilidades de pesquisa, após clicar em um texto, é pesquisado o texto automaticamente.
+
