@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { Platform, NavController, MenuController, Nav } from 'ionic-angular';
+import { Platform, NavController, MenuController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -10,9 +10,8 @@ import {SegundaTelaPage} from '../pages/segunda-tela/segunda-tela'
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild(Nav) nav: NavController;
-  public rootPage:any = SegundaTelaPage;
-
+  @ViewChild('myNav') nav: NavController;
+  //rootPage:any = SegundaTelaPage;
   constructor(
     platform: Platform,
     statusBar: StatusBar, 
@@ -24,6 +23,7 @@ export class MyApp {
       //Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
+      this.nav.setRoot(SegundaTelaPage)
     });
   }
 }
