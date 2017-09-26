@@ -1,4 +1,5 @@
 /node_modules
 *.log
-/platforms/android/
-/www/build/
+/platforms*
+www/*
+.sourcemaps/
