@@ -1,0 +1,8 @@
+{
+  "name": "ionicProjFatec",
+  "app_id": "e80eae00",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
