@@ -13,7 +13,7 @@ export class HomePage {
 
   }
   avancar(){
-    this.navCtrl.push(SegundaTelaPage)
+    this.navCtrl.setRoot(SegundaTelaPage)
   }
 
 }
