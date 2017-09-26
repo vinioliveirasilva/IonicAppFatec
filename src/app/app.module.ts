@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {SegundaTelaPage} from '../pages/segunda-tela/segunda-tela'
 
 import {PrimeiroComponenteComponent} from "../components/primeiro-componente/primeiro-componente"
 
@@ -13,6 +14,7 @@ import {PrimeiroComponenteComponent} from "../components/primeiro-componente/pri
   declarations: [
     MyApp,
     HomePage,
+    SegundaTelaPage,
     PrimeiroComponenteComponent
   ],
   imports: [
@@ -22,6 +24,7 @@ import {PrimeiroComponenteComponent} from "../components/primeiro-componente/pri
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    SegundaTelaPage,
     HomePage
   ],
   providers: [

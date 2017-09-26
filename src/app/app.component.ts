@@ -22,7 +22,7 @@ export class MyApp {
   }
 
   ngOnInit(){
-    this.nav.push(HomePage, {
+    this.nav.setRoot(HomePage, {
       param1: 'Jack', param2: 'Johnson'
     });
   }
