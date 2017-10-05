@@ -8,6 +8,7 @@ import { MaterialDeSalaPage } from '../pages/material-de-sala/material-de-sala';
 import { AjudaPage } from '../pages/ajuda/ajuda';
 import { GerenciarMateriasPage } from '../pages/gerenciar-materias/gerenciar-materias';
 import { DataDasProvasPage } from '../pages/data-das-provas/data-das-provas';
+import {CamapaPage} from '../pages/camapa/camapa'
 
 
 import { HomePage } from '../pages/home/home';
@@ -45,5 +46,8 @@ export class MyApp {
   }goToDataDasProvas(params){
     if (!params) params = {};
     this.navCtrl.setRoot(DataDasProvasPage);
+  }goToCamapa(params){
+    if (!params) params = {};
+    this.navCtrl.setRoot(CamapaPage);
   }
 }

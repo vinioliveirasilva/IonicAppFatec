@@ -7,7 +7,9 @@ import { GerenciarMateriasPage } from '../pages/gerenciar-materias/gerenciar-mat
 import { DataDasProvasPage } from '../pages/data-das-provas/data-das-provas';
 import { MaterialDeSalaPage } from '../pages/material-de-sala/material-de-sala';
 import { AjudaPage } from '../pages/ajuda/ajuda';
+import {CamapaPage} from '../pages/camapa/camapa'
 
+import {CanvasDrawComponent} from '../components/canvas-draw/canvas-draw'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +21,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GerenciarMateriasPage,
     DataDasProvasPage,
     MaterialDeSalaPage,
-    AjudaPage
+    AjudaPage,
+    CamapaPage,
+    CanvasDrawComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     GerenciarMateriasPage,
     DataDasProvasPage,
     MaterialDeSalaPage,
-    AjudaPage
+    AjudaPage,
+    CamapaPage
   ],
   providers: [
     StatusBar,

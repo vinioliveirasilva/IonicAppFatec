@@ -1,0 +1,3 @@
+branch dedicada a implementação do canvas no projeto
+inicialmente a ideia é conseguir fazer algum tipo de desenho sobre a aplicação
+apos isso a ideia é fazer isso atraves de um algoritmo tendo como base o mapa fornecido

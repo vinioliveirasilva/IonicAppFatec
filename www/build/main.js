@@ -1,6 +1,6 @@
-webpackJsonp([1],{
+webpackJsonp([2],{
 
-/***/ 106:
+/***/ 107:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,16 +13,20 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 106;
+webpackEmptyAsyncContext.id = 107;
 
 /***/ }),
 
-/***/ 147:
+/***/ 148:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"../pages/camapa/camapa.module": [
+		267,
+		1
+	],
 	"../pages/segunda-tela/segunda-tela.module": [
-		265,
+		268,
 		0
 	]
 };
@@ -37,18 +41,18 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 147;
+webpackAsyncContext.id = 148;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 191:
+/***/ 192:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MaterialDeSalaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -77,13 +81,13 @@ MaterialDeSalaPage = __decorate([
 
 /***/ }),
 
-/***/ 192:
+/***/ 193:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AjudaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -112,13 +116,13 @@ AjudaPage = __decorate([
 
 /***/ }),
 
-/***/ 193:
+/***/ 194:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GerenciarMateriasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -147,13 +151,13 @@ GerenciarMateriasPage = __decorate([
 
 /***/ }),
 
-/***/ 194:
+/***/ 195:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataDasProvasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -182,13 +186,13 @@ DataDasProvasPage = __decorate([
 
 /***/ }),
 
-/***/ 195:
+/***/ 196:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -208,7 +212,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding id="page1">\n\n  <form id="home-form2">\n\n    <ion-searchbar placeholder="" name="" id="home-search2"></ion-searchbar>\n\n  </form>\n\n  <div>\n\n    <img src="assets/img/4vlRV62nQcCy0ZJYSXxK_MapaBase.png" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n    <ion-searchbar placeholder="" name="" id="home-search2"></ion-searchbar>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content id="page1">\n\n  <img id="imagem" src="assets/img/4vlRV62nQcCy0ZJYSXxK_MapaBase.png"  />\n\n</ion-content>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
 ], HomePage);
@@ -217,13 +221,13 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 196:
+/***/ 197:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(216);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -231,28 +235,32 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 215:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_gerenciar_materias_gerenciar_materias__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_data_das_provas_data_das_provas__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_material_de_sala_material_de_sala__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_gerenciar_materias_gerenciar_materias__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_data_das_provas_data_das_provas__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_material_de_sala_material_de_sala__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_camapa_camapa__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_canvas_draw_canvas_draw__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(191);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -277,12 +285,15 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_gerenciar_materias_gerenciar_materias__["a" /* GerenciarMateriasPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_data_das_provas_data_das_provas__["a" /* DataDasProvasPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_material_de_sala_material_de_sala__["a" /* MaterialDeSalaPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__["a" /* AjudaPage */]
+            __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__["a" /* AjudaPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_camapa_camapa__["a" /* CamapaPage */],
+            __WEBPACK_IMPORTED_MODULE_10__components_canvas_draw_canvas_draw__["a" /* CanvasDrawComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                 links: [
+                    { loadChildren: '../pages/camapa/camapa.module#CamapaPageModule', name: 'CamapaPage', segment: 'camapa', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/segunda-tela/segunda-tela.module#SegundaTelaPageModule', name: 'SegundaTelaPage', segment: 'segunda-tela', priority: 'low', defaultHistory: [] }
                 ]
             })
@@ -294,11 +305,12 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_gerenciar_materias_gerenciar_materias__["a" /* GerenciarMateriasPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_data_das_provas_data_das_provas__["a" /* DataDasProvasPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_material_de_sala_material_de_sala__["a" /* MaterialDeSalaPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__["a" /* AjudaPage */]
+            __WEBPACK_IMPORTED_MODULE_8__pages_ajuda_ajuda__["a" /* AjudaPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_camapa_camapa__["a" /* CamapaPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
         ]
     })
@@ -308,20 +320,21 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 256:
+/***/ 257:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(187);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_material_de_sala_material_de_sala__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_ajuda_ajuda__ = __webpack_require__(192);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_gerenciar_materias_gerenciar_materias__ = __webpack_require__(193);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_data_das_provas_data_das_provas__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_material_de_sala_material_de_sala__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_ajuda_ajuda__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_gerenciar_materias_gerenciar_materias__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_data_das_provas_data_das_provas__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_camapa_camapa__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_home_home__ = __webpack_require__(196);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -340,9 +353,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var MyApp = (function () {
     function MyApp(platform, statusBar, splashScreen) {
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */];
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
@@ -368,29 +382,179 @@ var MyApp = (function () {
     MyApp.prototype.goToHome = function (params) {
         if (!params)
             params = {};
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */]);
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_9__pages_home_home__["a" /* HomePage */]);
     };
     MyApp.prototype.goToDataDasProvas = function (params) {
         if (!params)
             params = {};
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_7__pages_data_das_provas_data_das_provas__["a" /* DataDasProvasPage */]);
     };
+    MyApp.prototype.goToCamapa = function (params) {
+        if (!params)
+            params = {};
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_8__pages_camapa_camapa__["a" /* CamapaPage */]);
+    };
     return MyApp;
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
 ], MyApp.prototype, "navCtrl", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\app\app.html"*/'<ion-menu [content]="mainContent">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>\n\n        Menu\n\n      </ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content id="side-menu21" style="background-color:#C5CECA;">\n\n    <ion-list id="menu-list1">\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToHome()" id="menu-list-item2">\n\n          <ion-icon name="home" item-left></ion-icon>\n\n          Mapa\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="positive">\n\n            Teste\n\n          </button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToGerenciarMaterias()" id="menu-list-item6">\n\n          <ion-icon name="briefcase" item-left></ion-icon>\n\n          Gerenciar Materias\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="positive">\n\n            Teste\n\n          </button>\n\n          <button ion-button color="light"></button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToDataDasProvas()" id="menu-list-item3">\n\n          <ion-icon name="calendar" item-left></ion-icon>\n\n          Data das Provas\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="assertive">\n\n            Proxima\n\n          </button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item color="none" menuClose="" on-click="goToMaterialDeSala()" id="menu-list-item5">\n\n        <ion-icon name="document" item-left></ion-icon>\n\n        Material de Sala\n\n      </ion-item>\n\n      <ion-item color="none" menuClose="" on-click="goToAjuda()" id="menu-list-item4">\n\n        <ion-icon name="information-circle" item-left></ion-icon>\n\n        Ajuda\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\app\app.html"*/'<ion-menu [content]="mainContent">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>\n\n        Menu\n\n      </ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content id="side-menu21" style="background-color:#C5CECA;">\n\n    <ion-list id="menu-list1">\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToHome()" id="menu-list-item2">\n\n          <ion-icon name="home" item-left></ion-icon>\n\n          Mapa\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="positive">\n\n            Teste\n\n          </button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToGerenciarMaterias()" id="menu-list-item6">\n\n          <ion-icon name="briefcase" item-left></ion-icon>\n\n          Gerenciar Materias\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="positive">\n\n            Teste\n\n          </button>\n\n          <button ion-button color="light"></button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item-sliding>\n\n        <ion-item color="none" menuClose="" on-click="goToDataDasProvas()" id="menu-list-item3">\n\n          <ion-icon name="calendar" item-left></ion-icon>\n\n          Data das Provas\n\n        </ion-item>\n\n        <ion-item-options side="left">\n\n          <button ion-button color="assertive">\n\n            Proxima\n\n          </button>\n\n        </ion-item-options>\n\n      </ion-item-sliding>\n\n      <ion-item color="none" menuClose="" on-click="goToMaterialDeSala()" id="menu-list-item5">\n\n        <ion-icon name="document" item-left></ion-icon>\n\n        Material de Sala\n\n      </ion-item>\n\n      <ion-item color="none" menuClose="" on-click="goToAjuda()" id="menu-list-item4">\n\n        <ion-icon name="information-circle" item-left></ion-icon>\n\n        Ajuda\n\n      </ion-item>\n\n      <ion-item color="none" menuClose="" on-click="goToCamapa()" id="menu-list-item4">\n\n        <ion-icon name="aperture" item-left></ion-icon>\n\n        teste\n\n      </ion-item>\n\n    </ion-list>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav #mainContent [root]="rootPage"></ion-nav>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CanvasDrawComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CanvasDrawComponent = (function () {
+    function CanvasDrawComponent(platform, renderer) {
+        this.platform = platform;
+        this.renderer = renderer;
+        this.currentColour = '#1abc9c';
+        this.brushSize = 5;
+        this.imagem = '../../assets/img/asdf.png';
+        console.log('Hello CanvasDraw Component');
+    }
+    CanvasDrawComponent.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this.canvasElement = this.canvas.nativeElement;
+        //this.renderer.setElementAttribute(this.canvasElement, 'width', this.platform.width() + '');
+        //this.renderer.setElementAttribute(this.canvasElement, 'height', this.platform.height() + '');
+        var ctx = this.canvasElement.getContext('2d');
+        var source = new Image();
+        source.crossOrigin = 'Anonymous';
+        source.onload = function () {
+            _this.canvasElement.height = source.height;
+            _this.canvasElement.width = source.width;
+            ctx.drawImage(source, 1, 1);
+        };
+        source.src = this.imagem;
+        //img.src = '../../assets/img/asdf.png'
+    };
+    CanvasDrawComponent.prototype.handleStart = function (ev) {
+        console.log(ev);
+        this.lastX = ev.touches[0].pageX;
+        this.lastY = ev.touches[0].pageY;
+    };
+    CanvasDrawComponent.prototype.handleMove = function (ev) {
+        var ctx = this.canvasElement.getContext('2d');
+        var currentX = ev.touches[0].pageX;
+        var currentY = ev.touches[0].pageY;
+        var x = currentX + 1;
+        var y = currentY + 1;
+        console.log(ctx.getImageData(x, y, 1, 1));
+        /*
+               ctx.beginPath();
+               ctx.lineJoin = "round";
+               ctx.moveTo(this.lastX, this.lastY);
+               ctx.lineTo(currentX, currentY);
+               ctx.closePath();
+               ctx.strokeStyle = this.currentColour;
+               ctx.lineWidth = this.brushSize;
+               ctx.stroke();  */
+        this.lastX = currentX;
+        this.lastY = currentY;
+    };
+    CanvasDrawComponent.prototype.clearCanvas = function () {
+        var ctx = this.canvasElement.getContext('2d');
+        ctx.clearRect(0, 0, this.canvasElement.width, this.canvasElement.height);
+    };
+    CanvasDrawComponent.prototype.findPos = function (obj) {
+        var curleft = 0, curtop = 0;
+        if (obj.offsetParent) {
+            do {
+                curleft += obj.offsetLeft;
+                curtop += obj.offsetTop;
+            } while (obj = obj.offsetParent);
+            return { x: curleft, y: curtop };
+        }
+        return undefined;
+    };
+    return CanvasDrawComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('myCanvas'),
+    __metadata("design:type", Object)
+], CanvasDrawComponent.prototype, "canvas", void 0);
+CanvasDrawComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'canvas-draw',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/'<ion-toolbar id="top-toolbar">\n  Cabeçalho do mapa\n</ion-toolbar>\n\n<canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>\n\n<ion-toolbar id="bottom-toolbar">\n  Footer do mapa\n</ion-toolbar>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */]) === "function" && _b || Object])
+], CanvasDrawComponent);
+
+var _a, _b;
+//# sourceMappingURL=canvas-draw.js.map
+
+/***/ }),
+
+/***/ 98:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CamapaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CamapaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CamapaPage = (function () {
+    function CamapaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CamapaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CamapaPage');
+    };
+    return CamapaPage;
+}());
+CamapaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-camapa',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\camapa\camapa.html"*/'<!--\n  Generated template for the CamapaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>camapa</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content no-bounce>\n  <div id="back">\n    <canvas-draw></canvas-draw>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\pages\camapa\camapa.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+], CamapaPage);
+
+//# sourceMappingURL=camapa.js.map
 
 /***/ })
 
-},[196]);
+},[197]);
 //# sourceMappingURL=main.js.map
