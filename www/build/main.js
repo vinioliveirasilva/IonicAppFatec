@@ -434,6 +434,7 @@ var CanvasDrawComponent = (function () {
         this.renderer = renderer;
         this.currentColour = '#1abc9c';
         this.brushSize = 5;
+        //imagem = "https://mdn.mozillademos.org/files/5397/rhino.jp"
         this.imagem = '../../assets/img/asdf.png';
         console.log('Hello CanvasDraw Component');
     }
@@ -446,15 +447,15 @@ var CanvasDrawComponent = (function () {
         var source = new Image();
         source.crossOrigin = 'Anonymous';
         source.onload = function () {
-            _this.canvasElement.height = source.height;
-            _this.canvasElement.width = source.width;
-            ctx.drawImage(source, 1, 1);
+            //this.canvasElement.height = source.height - 50
+            //this.canvasElement.width = source.width - 50
+            ctx.drawImage(source, 1, 1, _this.canvasElement.width, _this.canvasElement.height);
         };
         source.src = this.imagem;
         //img.src = '../../assets/img/asdf.png'
     };
     CanvasDrawComponent.prototype.handleStart = function (ev) {
-        console.log(ev);
+        //console.log(ev)
         this.lastX = ev.touches[0].pageX;
         this.lastY = ev.touches[0].pageY;
     };
@@ -464,7 +465,7 @@ var CanvasDrawComponent = (function () {
         var currentY = ev.touches[0].pageY;
         var x = currentX + 1;
         var y = currentY + 1;
-        console.log(ctx.getImageData(x, y, 1, 1));
+        //console.log(ctx.getImageData(x, y, 1,1))
         /*
                ctx.beginPath();
                ctx.lineJoin = "round";
@@ -481,16 +482,18 @@ var CanvasDrawComponent = (function () {
         var ctx = this.canvasElement.getContext('2d');
         ctx.clearRect(0, 0, this.canvasElement.width, this.canvasElement.height);
     };
-    CanvasDrawComponent.prototype.findPos = function (obj) {
-        var curleft = 0, curtop = 0;
-        if (obj.offsetParent) {
-            do {
-                curleft += obj.offsetLeft;
-                curtop += obj.offsetTop;
-            } while (obj = obj.offsetParent);
-            return { x: curleft, y: curtop };
-        }
-        return undefined;
+    CanvasDrawComponent.prototype.zoomOut = function () {
+        var _this = this;
+        console.log("clicou");
+        var ctx = this.canvasElement.getContext('2d');
+        var source = new Image();
+        ctx.scale(3, 3);
+        source.onload = function () {
+            //this.canvasElement.height = source.height - 50
+            //this.canvasElement.width = source.width - 50
+            ctx.drawImage(source, 1, 1, _this.canvasElement.width, _this.canvasElement.height);
+        };
+        source.src = this.imagem;
     };
     return CanvasDrawComponent;
 }());
@@ -500,7 +503,7 @@ __decorate([
 ], CanvasDrawComponent.prototype, "canvas", void 0);
 CanvasDrawComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'canvas-draw',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/'<ion-toolbar id="top-toolbar">\n  Cabeçalho do mapa\n</ion-toolbar>\n\n<canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>\n\n<ion-toolbar id="bottom-toolbar">\n  Footer do mapa\n</ion-toolbar>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/
+        selector: 'canvas-draw',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/'<ion-toolbar id="top-toolbar">\n  Cabeçalho do mapa\n</ion-toolbar>\n\n<canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>\n\n<ion-toolbar id="bottom-toolbar">\n  <button ion-button (click)="zoomOut()" >Zoom</button>\n</ion-toolbar>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */]) === "function" && _b || Object])
 ], CanvasDrawComponent);

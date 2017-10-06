@@ -5,5 +5,5 @@
 <canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>
 
 <ion-toolbar id="bottom-toolbar">
-  Footer do mapa
+  <button ion-button (click)="zoomOut()" >Zoom</button>
 </ion-toolbar>
