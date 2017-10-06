@@ -482,8 +482,7 @@ var CanvasDrawComponent = (function () {
         var ctx = this.canvasElement.getContext('2d');
         ctx.clearRect(0, 0, this.canvasElement.width, this.canvasElement.height);
     };
-    CanvasDrawComponent.prototype.zoomOut = function () {
-        var _this = this;
+    CanvasDrawComponent.prototype.zoomIn = function () {
         console.log("clicou");
         var ctx = this.canvasElement.getContext('2d');
         var source = new Image();
@@ -491,7 +490,19 @@ var CanvasDrawComponent = (function () {
         source.onload = function () {
             //this.canvasElement.height = source.height - 50
             //this.canvasElement.width = source.width - 50
-            ctx.drawImage(source, 1, 1, _this.canvasElement.width, _this.canvasElement.height);
+            ctx.drawImage(source, 1, 1, 100, 100);
+        };
+        source.src = this.imagem;
+    };
+    CanvasDrawComponent.prototype.zoomOut = function () {
+        console.log("clicou");
+        var ctx = this.canvasElement.getContext('2d');
+        var source = new Image();
+        ctx.scale(0.5, 0.5);
+        source.onload = function () {
+            //this.canvasElement.height = source.height - 50
+            //this.canvasElement.width = source.width - 50
+            ctx.drawImage(source, 1, 1, 100, 100);
         };
         source.src = this.imagem;
     };
@@ -503,7 +514,7 @@ __decorate([
 ], CanvasDrawComponent.prototype, "canvas", void 0);
 CanvasDrawComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'canvas-draw',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/'<ion-toolbar id="top-toolbar">\n  Cabeçalho do mapa\n</ion-toolbar>\n\n<canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>\n\n<ion-toolbar id="bottom-toolbar">\n  <button ion-button (click)="zoomOut()" >Zoom</button>\n</ion-toolbar>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/
+        selector: 'canvas-draw',template:/*ion-inline-start:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/'<ion-toolbar id="top-toolbar">\n  Cabeçalho do mapa\n</ion-toolbar>\n\n<canvas id="canvas" #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>\n\n<ion-toolbar id="bottom-toolbar">\n  <ion-buttons left>\n      <button ion-button (click)="zoomIn()" >Zoom in</button>\n  </ion-buttons>\n  <ion-buttons right>\n      <button ion-button (click)="zoomOut()" >Zoom out</button>\n  </ion-buttons>\n</ion-toolbar>'/*ion-inline-end:"C:\Users\Nicholas Maestrello\Documents\GitHub\IonicAppFatec\src\components\canvas-draw\canvas-draw.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */]) === "function" && _b || Object])
 ], CanvasDrawComponent);

@@ -25205,6 +25205,13 @@ canvas-draw {
   display: block;
 }
 
+canvas-draw #canvas {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  height: 90%;
+}
+
 canvas-draw #top-toolbar {
   position: absolute;
   top: 0;

@@ -77,7 +77,7 @@ export class CanvasDrawComponent {
         ctx.clearRect(0, 0, this.canvasElement.width, this.canvasElement.height);
     }
 
-    zoomOut() {
+    zoomIn() {
         console.log("clicou")
         let ctx = this.canvasElement.getContext('2d');
         let source = new Image()
@@ -85,10 +85,23 @@ export class CanvasDrawComponent {
         source.onload = () => {
             //this.canvasElement.height = source.height - 50
             //this.canvasElement.width = source.width - 50
-            ctx.drawImage(source, 1, 1,this.canvasElement.width ,this.canvasElement.height)
+            ctx.drawImage(source, 1, 1,100,100)
         }
         source.src = this.imagem
 
+    }
+
+    zoomOut(){
+        console.log("clicou")
+        let ctx = this.canvasElement.getContext('2d');
+        let source = new Image()
+        ctx.scale(0.5, 0.5)
+        source.onload = () => {
+            //this.canvasElement.height = source.height - 50
+            //this.canvasElement.width = source.width - 50
+            ctx.drawImage(source, 1, 1,100,100)
+        }
+        source.src = this.imagem
     }
 
 }

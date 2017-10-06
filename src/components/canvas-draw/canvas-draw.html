@@ -2,8 +2,13 @@
   Cabeçalho do mapa
 </ion-toolbar>
 
-<canvas #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>
+<canvas id="canvas" #myCanvas (touchstart)="handleStart($event)" (touchmove)="handleMove($event)"></canvas>
 
 <ion-toolbar id="bottom-toolbar">
-  <button ion-button (click)="zoomOut()" >Zoom</button>
+  <ion-buttons left>
+      <button ion-button (click)="zoomIn()" >Zoom in</button>
+  </ion-buttons>
+  <ion-buttons right>
+      <button ion-button (click)="zoomOut()" >Zoom out</button>
+  </ion-buttons>
 </ion-toolbar>
