@@ -485,8 +485,9 @@ var CanvasDrawComponent = (function () {
     CanvasDrawComponent.prototype.zoomIn = function () {
         console.log("clicou");
         var ctx = this.canvasElement.getContext('2d');
+        this.clearCanvas();
         var source = new Image();
-        ctx.scale(3, 3);
+        ctx.scale(2, 2);
         source.onload = function () {
             //this.canvasElement.height = source.height - 50
             //this.canvasElement.width = source.width - 50
@@ -497,6 +498,7 @@ var CanvasDrawComponent = (function () {
     CanvasDrawComponent.prototype.zoomOut = function () {
         console.log("clicou");
         var ctx = this.canvasElement.getContext('2d');
+        this.clearCanvas();
         var source = new Image();
         ctx.scale(0.5, 0.5);
         source.onload = function () {
@@ -505,6 +507,8 @@ var CanvasDrawComponent = (function () {
             ctx.drawImage(source, 1, 1, 100, 100);
         };
         source.src = this.imagem;
+    };
+    CanvasDrawComponent.prototype.drawlingImage = function () {
     };
     return CanvasDrawComponent;
 }());
